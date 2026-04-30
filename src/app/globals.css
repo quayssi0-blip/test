@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+/* Glassmorphism styles */
+.glass-panel {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.3)];
+}
+
+.glass-panel-dark {
+  @apply bg-neutral-900/50 backdrop-blur-lg border border-neutral-800/50 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.4)];
+}
+
+/* Glowing accents */
+.glow-cyan {
+  @apply text-cyan-400 drop-shadow-[0_0_8px_cyan-400] hover:drop-shadow-[0_0_12px_cyan-400] transition-shadow;
+}
+
+.glow-blue {
+  @apply text-blue-400 drop-shadow-[0_0_8px_blue-400] hover:drop-shadow-[0_0_12px_blue-400] transition-shadow;
+}
+
+/* Dark mode overrides */
+.dark-mode {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  @apply transition-all duration-300 ease-in-out;
+}

@@ -59,7 +59,9 @@ bun typecheck      # Run TypeScript type checking
 {
   "next": "^16.1.3", // Framework
   "react": "^19.2.3", // UI library
-  "react-dom": "^19.2.3" // React DOM
+  "react-dom": "^19.2.3", // React DOM
+  "three": "^0.184.0", // 3D library for MathSpace 3D
+  "@types/three": "^0.184.0" // TypeScript definitions for Three.js
 }
 ```
 
