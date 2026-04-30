@@ -1,3 +1,5 @@
+'use client';
+
 import MathSpace3D from '@/components/MathSpace3D';
 import { useState } from 'react';
 
